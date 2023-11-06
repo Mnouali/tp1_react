@@ -43,3 +43,33 @@ img{
   top: -70px;
   color: chocolate;
 }
+
+#b1{
+  width: 50px;
+
+}
+#in1{
+  border: solid;
+  width: 228px;
+  
+}
+#div2{
+  width: 300px;
+  height: 330px;
+  background-color: rgb(155, 149, 143);
+  border-radius: 20px;
+  box-shadow: 12px 10px 5px gray;
+  margin-top: 10px;
+  padding: 32px;
+ 
+}
+#div1{
+  
+  margin-top: 100px;
+  
+  
+}
+.App{
+  display: flex;
+  justify-content: center;
+}

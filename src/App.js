@@ -1,17 +1,15 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
-import './App.css';
-import Slider from './slider/Slider';
-// import Join from './Projet/pages/Join';
-// import Navabr from './Projet/pages/navabr';
- 
+import Calcul from './calcu/Calcul';
 import { BrowserRouter,Route,routes } from 'react-router-dom';
+import"../src/App.css";
  
  
 
 function App() {
   return (
-    <BrowserRouter className="App">
-     <Slider/>
+    <div className="App">
+      <Calcul/>
+ 
        {/* <h1>hh</h1>
        <Routes>
        
@@ -20,7 +18,7 @@ function App() {
        </Routes>
   */}
    
-    </BrowserRouter>
+    </div>
   );
 }
 
